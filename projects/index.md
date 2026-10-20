@@ -1,27 +1,38 @@
 ---
-title: Projects
+title: 科研项目
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: 科研项目与成果转化
 ---
+# 科研项目
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+{% for project in site.data.lab.researchProjects %}
+## {{ project.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- **项目来源**：{{ project.source }}
+- **项目编号**：{{ project.number }}
+- **执行周期**：{{ project.period }}
+- **承担角色**：{{ project.role }}
+- **项目状态**：{{ project.status }}
+{% if project.funding != empty %}- **项目经费**：{{ project.funding }}{% endif %}
 
-{% include tags.html tags="publication, resource, website" %}
+{{ project.description }}
+{% if project.url != empty %}[项目主页]({{ project.url }}){% endif %}
 
-{% include search-info.html %}
+{% endfor %}
 
 {% include section.html %}
 
-## Featured
+# 项目成果
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% for project in site.data.lab.projects %}
+## {{ project.title }}
+### {{ project.subtitle }}
 
-{% include section.html %}
+{{ project.description }}
 
-## More
+{{ project.year }} · {{ project.status }}
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{{ project.tags | join: " · " }}
+{% if project.url != empty %}[项目主页]({{ project.url }}){% endif %}
+{% endfor %}

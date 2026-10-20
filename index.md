@@ -1,94 +1,38 @@
 ---
+title: 首页
 ---
+# 理解自我，连接他人
 
-# Lab Website Template
+我们关注自我与社会认知如何在大脑、关系和情境中发生变化，并将机制研究转化为更可靠的心理评估与干预线索。
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
-
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
+{% include button.html link="research/" text="浏览论文成果" icon="fa-solid fa-book-open" %}
+{% include button.html link="team/" text="认识团队" icon="fa-solid fa-users" %}
 
 {% include section.html %}
 
-## Highlights
+## 把人的经验放回大脑、关系与情境之中
 
-{% capture text %}
+蟹黄堡实验室以认知神经科学为基础，研究自我加工、社会认知、共情及精神分裂症相关机制。我们重视理论问题与可检验预测的衔接，也关注实验范式、脑电指标和计算模型如何服务真实世界中的心理评估。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> 好的研究既要解释一个效应为何出现，也要说明它在什么条件下不再成立。
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include section.html %}
 
-{% endcapture %}
+## 研究方向
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+{% for area in site.data.lab.researchAreas %}
+### {{ area.title }} · {{ area.subtitle }}
+{{ area.description }}
 
-{% capture text %}
+{{ area.keywords | join: " · " }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% endfor %}
 
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include section.html %}
 
-{% endcapture %}
+## 研究与转化
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
+{% include button.html link="projects/" text="科研项目与项目成果" icon="fa-solid fa-flask" %}
+{% include button.html link="contact/" text="加入我们 / 联系实验室" icon="fa-regular fa-envelope" %}
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+以严谨的方法理解自我、他人与社会世界。

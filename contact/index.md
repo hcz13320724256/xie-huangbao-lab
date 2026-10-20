@@ -1,77 +1,27 @@
 ---
-title: Contact
+title: 加入我们
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 4
+  tooltip: 招生信息与联系方式
 ---
+# 和我们一起，把问题问得更深一点
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+我们欢迎对认知神经科学、自我、社会认知与临床心理研究真正好奇的本科生、硕士生、博士生和合作研究者。请在邮件中简要说明你的研究兴趣、已有经验以及希望参与的方向。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- 本科生研究助理
+- 硕士研究生
+- 博士研究生
+- 合作研究者
 
-{%
-  include button.html
-  type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
+招生与实习安排以当期公告和学校规定为准。
 
 {% include section.html %}
 
-{% capture col1 %}
+## 联系实验室
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+{% include button.html type="email" text="xiepeipeipsy@163.com" link="xiepeipeipsy@163.com" %}
 
-{% endcapture %}
+- **地址**：四川省成都市 · 四川师范大学狮子山校区
+- **交流时间**：预约交流请提前邮件联系
 
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+以严谨的方法理解自我、他人与社会世界。

@@ -1,282 +1,359 @@
-# DO NOT EDIT, GENERATED AUTOMATICALLY
-
-- id: doi:10.1016/j.patter.2026.101514
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
-  authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Patterns
-  date: '2026-05-01'
-  link: https://doi.org/hbvg3p
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
-  authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: openRxiv
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
-  authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: openRxiv
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: openRxiv
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+[
+  {
+    "id": "doi:10.1057/s41599-026-08965-4",
+    "title": "The hidden Self - Self-identification in criminal situations",
+    "authors": [
+      "ChaoZheng Huang, Hui Jiang, Hanbin Sang, Pei Xie & AiBao Zhou"
+    ],
+    "publisher": "Humanities and Social Sciences Communications (SSCI，二区Top)",
+    "year": "2026",
+    "link": "https://www.nature.com/articles/s41599-026-08965-4",
+    "type": "paper",
+    "description": "共同通讯作者：Pei Xie & AiBao Zhou",
+    "buttons": [],
+    "tags": [
+      "2026",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.1186/s12888-026-08614-9",
+    "title": "The effect of avatar identity on level-2  visual perspective taking in individuals  with schizophrenia",
+    "authors": [
+      "Pei Xie1,2†, ChaoZheng Huang2†, Li Lu4 , HanBin Sang3* and AiBao Zhou"
+    ],
+    "publisher": " BMC Psychiatry (SCIE，二区Top)",
+    "year": "2026",
+    "link": "https://doi.org/10.1186/s12888-026-08614-9",
+    "type": "paper",
+    "description": "共同第一作者：Pei Xie、ChaoZheng Huang；共同通讯作者：HanBin Sang、AiBao Zhou",
+    "buttons": [],
+    "tags": [
+      "2026",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.3724/SP.J.1042.2026.1832",
+    "title": "精神分裂症感觉衰减异常的神经递质调控机制",
+    "authors": [
+      "陈一月 1  曾雅欣 1  黄朝政 2  谢 珮"
+    ],
+    "publisher": "心理科学进展 (CSSCI)",
+    "year": "2026",
+    "link": "https://doi.org/10.3724/SP.J.1042.2026.1832",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2026",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.3724/SP.J.1042.2026.1887",
+    "title": "舌尖上的规范：社会规范对女性饮食行为的影响",
+    "authors": [
+      "王清玉 1  陈一月 1  唐露瑶 1  黄朝政 2  谢 珮"
+    ],
+    "publisher": "心理科学进展 (CSSCI)",
+    "year": "2026",
+    "link": "https://doi.org/10.3724/SP.J.1042.2026.1887",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2026",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.1186/s41235-026-00744-8",
+    "title": "Self-face recognition under self-implicating threat: preserved self-prioritization and recalibrated control dynamics",
+    "authors": [
+      "ChaoZheng Huang, Hui Jiang, HanBin Sang, Pei Xie & AiBao Zhou"
+    ],
+    "publisher": "Cognitive Research: Principles and Implications  (SSCI，二区Top)",
+    "year": "2026",
+    "link": "https://doi.org/10.1186/s41235-026-00744-8",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2026",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.1016/j.neubiorev.2026.106715",
+    "title": "Multi-path neural mechanisms of self–other reward integration impairment  in schizophrenia",
+    "authors": [
+      "ChaoZheng Huang , HanBin Sang  , Xuan Zhao , Pei Xie ,* , AiBao Zhou *"
+    ],
+    "publisher": "Neuroscience and Biobehavioral Reviews (SCI，一区Top)",
+    "year": "2026",
+    "link": "https://doi.org/10.1016/j.neubiorev.2026.106715",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2026",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541271265-9c9f4d",
+    "title": "The effect of emotional cues on attentional bias to food cues in women with body weight dissatisfaction",
+    "authors": [
+      "Xie, P., Sang, H., Wang, X., & Huang, C."
+    ],
+    "publisher": "Appetite",
+    "year": "2025",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2025",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.1038/s41537-024-00551-4.",
+    "title": "The effect of avatar identity on spontaneous perspective-taking in patients with schizophrenia",
+    "authors": [
+      "Xie, P#., Huang, C#., Wang, X., Sang, H., & Zhou, A"
+    ],
+    "publisher": "Schizophrenia （中科院二区，If: 4.5）",
+    "year": "2025",
+    "link": "https://doi.org/10.1038/s41537-024-00551-4.",
+    "type": "paper",
+    "description": "共同第一作者：Pei Xie、ChaoZheng Huang；共同通讯作者：HanBin Sang、AiBao Zhou",
+    "buttons": [],
+    "tags": [
+      "2025",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi: https://doi.org/10.1016/j.jpsychires.2025.05.080",
+    "title": "Neural activities of theory of mind in individuals with schizophrenia: A meta-analysis of fMRI studies",
+    "authors": [
+      "Xie, P#., Huang, C#., Li, Q., & Sang, H."
+    ],
+    "publisher": "Journal of psychiatric research （中科院二区，If: 3.2）",
+    "year": "2025",
+    "link": "https://doi.org/ https://doi.org/10.1016/j.jpsychires.2025.05.080",
+    "type": "paper",
+    "description": "共同第一作者：Pei Xie、ChaoZheng Huang",
+    "buttons": [],
+    "tags": [
+      "2025",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.1016/j.appet.2025.107913.",
+    "title": "The Effect of Emotional Cues on Attentional Bias to Food Cues in Women with Body Weight Dissatisfaction",
+    "authors": [
+      "Xie P., Sang H*., Wang X. & Huang C*"
+    ],
+    "publisher": "Appetite（中科院二区，If: 4.2）",
+    "year": "2025",
+    "link": "https://doi.org/10.1016/j.appet.2025.107913.",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2025",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "doi:10.1038/s41598-025-94564-3.",
+    "title": "How personality traits influence impulsive buying through the sequential mediation of family dynamics and self control.",
+    "authors": [
+      "Xie, P., Huang, C., Xu, T., & Cui, J."
+    ],
+    "publisher": "Scientific Reports, 15(1), 16423. （中科院三区，If: 4.9）",
+    "year": "2025",
+    "link": "https://doi.org/10.1038/s41598-025-94564-3.",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2025",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541333760-c89491",
+    "title": "“Kill the familiar effect”: the impact of anger on deceptive behavior",
+    "authors": [
+      "Huang, C. Z., Xie, P., Liang, W. S. & Zhou, A. B."
+    ],
+    "publisher": "Current Psychology， 43",
+    "year": "2024",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2024",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541369813-7f7f5f",
+    "title": "The effect of perceived stress for work engagement in volunteers during the COVID-19 pandemic: the mediating role of psychological resilience and age differences",
+    "authors": [
+      "Li, Y., Xie, P#., He, L., Fu, X., Ding, X., Jobe, M. C., & Ahmed, M. Z."
+    ],
+    "publisher": "PeerJ",
+    "year": "2023",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2023",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541346352-ccabff",
+    "title": "High schizotypy conditionally have a weaker sense of agency",
+    "authors": [
+      "Pan, C., Lu, H., Gong, J., Guo, Y., Li, Z., & Xie, P."
+    ],
+    "publisher": "Current Psychology",
+    "year": "2023",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2023",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541294115-528561",
+    "title": "Effect of body-related information on food attentional bias in women with body weight dissatisfaction",
+    "authors": [
+      "Xie, P., Sang, H. B., Huang, C. Z., & Zhou, A. B."
+    ],
+    "publisher": "Scientific reports",
+    "year": "2023",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2023",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541360684-c92b7d",
+    "title": "The role of perceived social support for loneliness in the Chinese elderly: hope and core self-evaluations as mediators",
+    "authors": [
+      "Zhang, R., Gao, Y., & Xie, P#."
+    ],
+    "publisher": "Current Psychology",
+    "year": "2022",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2022",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541353912-a7f5eb",
+    "title": "Body mass index and attention bias of food cues in women: a mediation model of body weight dissatisfaction",
+    "authors": [
+      "Zhou, A., Xie, P., Ahmed, M. Z., Jobe, M. C., & Ahmed, O."
+    ],
+    "publisher": "Peer J",
+    "year": "2022",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2022",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541394838-6703c4",
+    "title": "寻找镜中的自我：精神分裂症患者的视觉观点采择",
+    "authors": [
+      "周爱保, 岳红云,谢珮#,刘阳,李欣萱,李蔚,谢君伟."
+    ],
+    "publisher": "心理科学",
+    "year": "2021",
+    "link": "",
+    "type": "paper",
+    "description": "",
+    "buttons": [],
+    "tags": [
+      "2021",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541376840-ba0670",
+    "title": "情绪对饮食行为的影响.心理科学进展, 29(11),2013-2023",
+    "authors": [
+      "周爱保，谢珮#，田喆，潘超超."
+    ],
+    "publisher": "（通讯作者）",
+    "year": "2021",
+    "link": "",
+    "type": "paper",
+    "description": "共同第一作者：周爱保，谢珮",
+    "buttons": [],
+    "tags": [
+      "2021",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789541404978-25e043",
+    "title": "寻找丢失的自我——精神分裂症患者的自我面孔识别",
+    "authors": [
+      "周爱保，谢珮，潘超超，田喆，谢君伟，刘炯."
+    ],
+    "publisher": "心理学报，52（2）：173-183. （共同一作）",
+    "year": "2020",
+    "link": "",
+    "type": "paper",
+    "description": "共同第一作者：周爱保，谢珮",
+    "buttons": [],
+    "tags": [
+      "2020",
+      "研究论文"
+    ]
+  },
+  {
+    "id": "pub-1789483962390-5f93d9",
+    "title": "寻找丢失的自我——精神分裂症患者的自我面孔识别",
+    "authors": [
+      "周爱保，谢珮，潘超超，田喆，谢君伟，刘炯."
+    ],
+    "publisher": "心理学报，52（2）：173-183",
+    "year": "2020",
+    "link": "",
+    "type": "paper",
+    "description": "共同第一作者：周爱保、谢珮；共同通讯作者：周爱保、潘超超",
+    "buttons": [],
+    "tags": [
+      "2020",
+      "研究论文"
+    ]
+  }
+]

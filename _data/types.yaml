@@ -4,7 +4,7 @@
 
 principal-investigator:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: 课题组负责人
 
 postdoc:
   icon: fa-solid fa-glasses
@@ -12,11 +12,19 @@ postdoc:
 
 phd:
   icon: fa-solid fa-graduation-cap
-  description: PhD Student
+  description: 博士研究生
 
 undergrad:
   icon: fa-solid fa-user-graduate
-  description: Undergraduate Student
+  description: 本科生
+
+masters:
+  icon: fa-solid fa-graduation-cap
+  description: 硕士研究生
+
+collaborator:
+  icon: fa-solid fa-users
+  description: 合作成员
 
 programmer:
   icon: fa-solid fa-code

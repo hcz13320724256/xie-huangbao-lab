@@ -1,33 +1,16 @@
-name: on-pull-request
-run-name: On pull request activity
-
+name: Check lab website
 on:
-  # run on any pull request activity
   pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - closed
-
+    branches: [main]
 permissions:
-  actions: read
-  contents: write
-  pull-requests: write
-
+  contents: read
 jobs:
-  get-sources:
-    if: github.event.action != 'closed'
-    uses: ./.github/workflows/get-sources.yaml
-
-  update-citations:
-    if: github.event.action != 'closed'
-    needs: get-sources
-    uses: ./.github/workflows/update-citations.yaml
-    secrets: inherit
-
-  build-preview:
-    # still run when PR closed to trigger deploy-preview
-    if: ${{ !cancelled() && !failure() }}
-    needs: update-citations
-    uses: ./.github/workflows/build-preview.yaml
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+      - run: bundle exec jekyll build

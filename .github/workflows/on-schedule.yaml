@@ -2,10 +2,7 @@ name: on-schedule
 run-name: On schedule
 
 on:
-  # run periodically
-  schedule:
-    - cron: "0 0 * * 1"
-
+  # Scheduled metadata rewriting is disabled for the migrated records.
   # run manually by user
   workflow_dispatch:
 

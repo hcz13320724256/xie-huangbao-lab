@@ -1,27 +1,20 @@
 ---
-title: Research
+title: 论文成果
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: 检索实验室论文
 ---
+# 论文成果
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
+按题目、作者、期刊或年份检索。论文条目沿用实验室现有资料，作者贡献标注保留原有记录。
 
 {% include search-box.html %}
-
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% assign years = site.data.citations | group_by: "year" | sort: "name" | reverse %}
+{% for year in years %}
+## {{ year.name }}
+{% for paper in year.items %}
+{% include citation.html title=paper.title authors=paper.authors publisher=paper.publisher year=paper.year id=paper.id link=paper.link type=paper.type description=paper.description buttons=paper.buttons tags=paper.tags style="rich" %}
+{% endfor %}
+{% endfor %}

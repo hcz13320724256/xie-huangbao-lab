@@ -1,4 +1,5 @@
 ---
+published: false
 title: Blog
 nav:
   order: 4

@@ -1,19 +1,19 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: "蟹黄堡实验室"
+subtitle: "Xie-Huangbao Laboratory · 谢天谢地"
+description: "蟹黄堡实验室以认知神经科学为基础，研究自我加工、社会认知、共情及精神分裂症相关机制。我们重视理论问题与可检验预测的衔接，也关注实验范式、脑电指标和计算模型如何服务真实世界中的心理评估。"
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
+logo: images/lab-logo.png
+lang: zh-CN
+url: https://hcz13320724256.github.io
+baseurl: /xie-huangbao-lab
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  email: "xiepeipeipsy@163.com"
+  github: hcz13320724256/xie-huangbao-lab
 
 ### jekyll settings
 
@@ -71,6 +71,10 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - testbed.md
+  - CHANGELOG.md
+  - scripts
+  - public-content-backup.json
 
 # configure jekyll spaceship
 jekyll-spaceship:

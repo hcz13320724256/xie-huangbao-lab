@@ -22,13 +22,11 @@
       {% include icon.html icon=type.icon %}
     {% endif %}
 
-    <img
-      src="{{ member.image | relative_url | uri_escape }}"
-      class="portrait-image"
-      alt="member portrait"
-      loading="lazy"
-      {% include fallback.html %}
-    >
+    {% if member.image %}
+      <img src="{{ member.image | relative_url | uri_escape }}" class="portrait-image" alt="{{ member.name }}的照片" loading="lazy">
+    {% else %}
+      <span class="portrait-image portrait-initials" aria-hidden="true">{{ member.name | slice: 0, 1 }}</span>
+    {% endif %}
 
     {% if member.name %}
       <span class="portrait-name">
