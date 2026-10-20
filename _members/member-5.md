@@ -3,7 +3,7 @@
   "name": "黄朝政",
   "role": "principal-investigator",
   "description": "负责人",
-  "affiliation": "四川师范大学 · 心理学院",
+  "affiliation": "西北师范大学 · 心理学院",
   "aliases": [
     "黄朝政"
   ],
