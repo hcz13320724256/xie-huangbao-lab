@@ -9,8 +9,8 @@ proofer: false
 # site social media and other links
 logo: images/lab-logo.png
 lang: zh-CN
-url: https://hcz13320724256.github.io
-baseurl: /xie-huangbao-lab
+url: https://xiehuangbaolab.top
+baseurl: ""
 links:
   email: "xiepeipeipsy@163.com"
   github: hcz13320724256/xie-huangbao-lab
